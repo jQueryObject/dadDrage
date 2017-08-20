@@ -276,3 +276,13 @@ $(function(){
 |childrenClass   |字符串|dads-children       |为绑定对象的子对象增加的 class  |
 |cloneClass      |字符串|dads-children-clone |为被克隆对象增加的 class        |
 |active          |字符串|true                |默认是否可拖放                  |
+
+
+
+
+    | 水果        | 价格    |  数量  |
+    | --------   | -----:   | :----: |
+    | 香蕉        | $1      |   5    |
+    | 苹果        | $1      |   6    |
+    | 草莓        | $1      |   7    |
+
