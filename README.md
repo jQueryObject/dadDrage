@@ -291,12 +291,13 @@ $(function(){
 | zebra stripes | are neat      |    $1 |
 
 
-属性/方法             | 类型        | 默认值                 | 说明 
+属性/方法           | 类型        | 默认值                | 说明 
 ----|------|---- |----
-foo             | foo         | foo                 | foo
-bar             | bar         | bar                 | foo
-baz             | baz         | baz                 | foo
-baz             | baz         | baz                 | foo
-baz             | baz         | baz                 | foo
-baz             | baz         | baz                 | foo
-
+target             | 字符串       | >div                 | 要拖放的对象 
+draggable          | 字符串       | false                | 绑定拖动对象
+placeholder        | 字符串       | drop here            | 放入区域的文本占位符
+callback           | 字符串       | false                | 拖放后的回调函数
+containerClass     | 字符串       | dad-container        | 为绑定对象增加的 class
+childrenClass      | 字符串       | dads-children        | 为绑定对象的子对象增加的 class
+cloneClass         | 字符串       | dads-children-clone  | 为被克隆对象增加的 class
+active             | 字符串       | true                 | 默认是否可拖放
