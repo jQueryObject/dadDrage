@@ -266,6 +266,9 @@ $(function(){
 ```
 
 配置:
+属性/方法        | 类型    | 默认值              | 说明                           
+--------------- |
+
 
 
 | 属性/方法        | 类型   | 默认值              ｜ 说明                           ｜
@@ -289,12 +292,12 @@ $(function(){
 | zebra stripes | are neat      |    $1 |
 
 
-dog | bird | cat
-----|------|----
-foo | foo  | foo
-bar | bar  | bar
-baz | baz  | baz
-baz | baz  | baz
-baz | baz  | baz
-baz | baz  | baz
+dog | bird | cat | foo
+----|------|---- |----
+foo | foo  | foo | foo
+bar | bar  | bar | foo
+baz | baz  | baz | foo
+baz | baz  | baz | foo
+baz | baz  | baz | foo
+baz | baz  | baz | foo
 
