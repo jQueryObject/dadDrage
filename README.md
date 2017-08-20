@@ -292,12 +292,12 @@ $(function(){
 | zebra stripes | are neat      |    $1 |
 
 
-dog | bird | cat | foo
+dog             | bird        | cat                 | foo
 ----|------|---- |----
-foo | foo  | foo | foo
-bar | bar  | bar | foo
-baz | baz  | baz | foo
-baz | baz  | baz | foo
-baz | baz  | baz | foo
-baz | baz  | baz | foo
+foo             | foo         | foo                 | foo
+bar             | bar         | bar                 | foo
+baz             | baz         | baz                 | foo
+baz             | baz         | baz                 | foo
+baz             | baz         | baz                 | foo
+baz             | baz         | baz                 | foo
 
