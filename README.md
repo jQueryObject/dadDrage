@@ -278,3 +278,8 @@ containerClass     | 字符串       | dad-container        | 为绑定对象增
 childrenClass      | 字符串       | dads-children        | 为绑定对象的子对象增加的 class
 cloneClass         | 字符串       | dads-children-clone  | 为被克隆对象增加的 class
 active             | 字符串       | true                 | 默认是否可拖放
+
+
+优点：实现咯拖拽功能；
+
+缺点：由于此插件的实现拖拽原理所致 无法触发元素的click与dblclick事件
